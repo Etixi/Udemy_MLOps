@@ -1,0 +1,35 @@
+2023-08-27 10:52:24,015:INFO:Initializing load_model()
+2023-08-27 10:52:24,016:INFO:load_model(model_name=diamond-pipeline, platform=None, authentication=None, verbose=True)
+2023-08-27 10:55:25,995:INFO:Initializing predict_model()
+2023-08-27 10:55:25,996:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression', target='Price')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target='P...
+                                                 colsample_bytree=1.0,
+                                                 importance_type='split',
+                                                 learning_rate=0.1,
+                                                 max_depth=-1,
+                                                 min_child_samples=20,
+                                                 min_child_weight=0.001,
+                                                 min_split_gain=0.0,
+                                                 n_estimators=100, n_jobs=-1,
+                                                 num_leaves=31, objective=None,
+                                                 random_state=580,
+                                                 reg_alpha=0.0, reg_lambda=0.0,
+                                                 regressor=LGBMRegressor(n_jobs=-1,
+                                                                         random_state=580),
+                                                 subsample=1.0,
+                                                 subsample_for_bin=200000,
+                                                 subsample_freq=0)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2023-08-27 10:55:25,996:INFO:Checking exceptions
+2023-08-27 10:55:25,996:INFO:Preloading libraries
+2023-08-27 11:01:46,555:INFO:Initializing load_model()
+2023-08-27 11:01:46,556:INFO:load_model(model_name=diamond-pipeline, platform=None, authentication=None, verbose=True)
